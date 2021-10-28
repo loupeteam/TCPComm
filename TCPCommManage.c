@@ -15,6 +15,17 @@
 	{
 #endif
 
+#if !defined(_SG4) || defined(_NOT_BR)
+#include "bur.h"
+#include "AsTCP.h"
+#define TcpOpenSsl(x) x
+#define TcpOpen(x) x
+#define TcpIoctl(x) x
+#define TcpServer(x) x
+#define TcpClient(x) x
+#define TcpClose(x) x
+#endif
+
 #include "TCPComm.h"
 #include <string.h>
 
