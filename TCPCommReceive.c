@@ -14,7 +14,13 @@
 	extern "C"
 	{
 #endif
-
+#if !defined(_SG4) || defined(_NOT_BR)
+#include "bur.h"
+#include "AsTCP.h"
+#define TcpClose(x) x
+#define TcpSend(x) x
+#define TcpRecv(x) x
+#endif
 #include "TCPComm.h"
 #include <string.h>
 
