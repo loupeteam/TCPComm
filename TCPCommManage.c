@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: TCPComm
- * File: TCPCommFn_Cyclic.c
- * Author: davidblackburn
- * Created: January 28, 2014
- ********************************************************************
- * Implementation of library TCPComm
- ********************************************************************/
+/*
+ * File: TCPCommManage.c
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of TCPComm, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus

@@ -1,13 +1,11 @@
-/********************************************************************
- * COPYRIGHT --  
- ********************************************************************
- * Library: TCPComm
+/*
  * File: TCPCommReceive.c
- * Author: Josh
- * Created: June 03, 2015
- ********************************************************************
- * Implementation of library TCPComm
- ********************************************************************/
+ * Copyright (c) 2023 Loupe
+ * https://loupe.team
+ * 
+ * This file is part of TCPComm, licensed under the MIT License.
+ * 
+ */
 
 #include <bur/plctypes.h>
 #ifdef __cplusplus
