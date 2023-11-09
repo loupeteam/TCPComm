@@ -6,6 +6,7 @@
  * This file is part of TCPComm, licensed under the MIT License.
  *
  *)
+
 FUNCTION TCPManageConnection : UINT (*Cyclic function for managing TCP communications*) (*$GROUP=User*)
 	VAR_IN_OUT
 		t : TCPConnectionMgr_typ;

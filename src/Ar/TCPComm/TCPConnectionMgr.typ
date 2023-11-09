@@ -6,6 +6,7 @@
  * This file is part of TCPComm, licensed under the MIT License.
  *
  *)
+
 TYPE
 	TCPCOMM_MODE_enum : 
 		(
