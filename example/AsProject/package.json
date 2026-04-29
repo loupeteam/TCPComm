@@ -15,8 +15,5 @@
         ],
         "gitClient": "GitExtensions"
     },
-    "dependencies": {
-        "@loupeteam/librarybuilderproject": "^0.3.0",
-        "@loupeteam/tcpcomm": "^0.10.0"
-    }
+    "dependencies": {}
 }
