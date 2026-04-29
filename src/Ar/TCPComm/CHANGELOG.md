@@ -1,3 +1,5 @@
+1.0.0 - Update to AS6
+
 0.10.0 - Increase IP Address len to 255 chars to support urls
 
 0.9.0 - Add UID to connection description
